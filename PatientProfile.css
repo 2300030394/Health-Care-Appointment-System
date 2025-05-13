@@ -1,0 +1,40 @@
+.patient-profile-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.welcome-text {
+  color: #2ecc71;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 3px solid #4caf50;
+  margin-bottom: 1rem;
+}
+
+.no-image-text {
+  font-style: italic;
+  color: #aaa;
+}
+
+.patient-details {
+  text-align: left;
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.loading-text {
+  text-align: center;
+  margin-top: 2rem;
+  font-style: italic;
+  color: #555;
+}

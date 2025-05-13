@@ -1,0 +1,38 @@
+.doctors-container {
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #ccc;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.doctors-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.doctors-table th, .doctors-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.book-button {
+  background-color: #007bff;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}

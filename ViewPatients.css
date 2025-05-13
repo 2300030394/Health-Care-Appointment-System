@@ -1,0 +1,108 @@
+/* ViewPatients.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.patient-list {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #4CAF50;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 16px;
+  border: 1px solid #dee2e6;
+  text-align: center;
+  font-size: 16px;
+}
+
+thead {
+  background-color: #add8e6;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* No patients found message */
+.no-patients {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+/* Button styling (optional) */
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: #ff6b6b;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #e63946;
+}
+
+/* Search bar (optional) */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #4dd0e1;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  color: white;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #00acc1;
+}
